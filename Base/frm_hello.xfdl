@@ -4,11 +4,6 @@
   <Form id="frm_hello" left="0" top="0" width="1024" height="768" titletext="New Form">
     <Layouts>
       <Layout>
-        <Div id="Div02" taborder="2" left="0%" top="0" height="100%" style="background:aquamarine;" width="60">
-          <Layouts>
-            <Layout/>
-          </Layouts>
-        </Div>
         <Div id="Div00" taborder="1" left="0%" top="0" height="60" width="100%" style="background:#5f5f5fff;border:1 none #000000ff ;color:#ffffffff;">
           <Layouts>
             <Layout width="1024" height="60"/>
@@ -19,6 +14,36 @@
             <Layout width="200" height="60"/>
           </Layouts>
         </Div>
+        <Grid id="grdCustomers" taborder="3" useinputpanel="false" left="3.61%" top="144" right="2.34%" height="588" treeinitstatus="collapse,all" binddataset="Dataset00">
+          <Formats>
+            <Format id="default">
+              <Columns>
+                <Column size="80"/>
+                <Column size="141"/>
+                <Column size="77"/>
+                <Column size="174"/>
+              </Columns>
+              <Rows>
+                <Row size="24" band="head"/>
+                <Row size="24"/>
+              </Rows>
+              <Band id="head">
+                <Cell text="번호"/>
+                <Cell col="1" text="이름"/>
+                <Cell col="2" text="성별"/>
+                <Cell col="3" text="이메일"/>
+              </Band>
+              <Band id="body">
+                <Cell text="bind:번호"/>
+                <Cell col="1" text="bind:이름"/>
+                <Cell col="2" text="bind:성별"/>
+                <Cell col="3" text="bind:이메일"/>
+              </Band>
+            </Format>
+          </Formats>
+        </Grid>
+        <Button id="btnSearch" taborder="4" text="Search" left="73.93%" top="67" right="6.05%" height="52"/>
+        <Edit id="edtSearch" taborder="5" left="4.79%" top="77" right="34.86%" height="51"/>
       </Layout>
     </Layouts>
     <Objects>
@@ -27,12 +52,92 @@
           <Column id="번호" type="STRING" size="256"/>
           <Column id="이름" type="STRING" size="256"/>
           <Column id="성별" type="STRING" size="256"/>
+          <Column id="이메일" type="STRING" size="256"/>
         </ColumnInfo>
         <Rows>
           <Row>
             <Col id="번호">1</Col>
             <Col id="이름">승택</Col>
             <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
+          </Row>
+          <Row>
+            <Col id="번호">1</Col>
+            <Col id="이름">승택</Col>
+            <Col id="성별">남</Col>
+            <Col id="이메일">tmdxor1@naver.com</Col>
           </Row>
         </Rows>
       </Dataset>
