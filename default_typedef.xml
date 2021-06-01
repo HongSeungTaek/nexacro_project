@@ -29,11 +29,13 @@
     <Component type="JavaScript" id="ProgressBar" classname="nexacro.ProgressBar"/>
     <Component type="JavaScript" id="Plugin" classname="nexacro.Plugin"/>
     <Component type="JavaScript" id="Dataset" classname="nexacro.NormalDataset"/>
+    <Component type="JavaScript" id="WebBrowser" classname="nexacro.WebBrowser"/>
   </Components>
   <Protocols/>
   <Services>
     <Service prefixid="Base" type="form" url="./Base/" version="0" communicationversion="0"/>
     <Service prefixid="Work" type="form" url="./Work/" communicationversion="0"/>
+    <Service prefixid="Work2" type="form" url="./Work2/" communicationversion="0"/>
   </Services>
   <Update/>
 </TypeDefinition>

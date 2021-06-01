@@ -6,7 +6,6 @@
       <Layout>
         <Button id="Button00" taborder="0" text="Hello&#13;&#10;안녕" left="76.5%" top="32" right="8.5%" height="50" onclick="Button00_onclick"/>
         <WebBrowser id="WebBrowser00" left="5%" top="49" right="43.38%" height="384" taborder="1" url="http://daum.net"/>
-        <Button id="Button01" taborder="2" text="global" left="77%" top="108" right="8%" height="50" onclick="Button01_onclick"/>
       </Layout>
     </Layouts>
     <Script type="xscript5.0"><![CDATA[
@@ -15,14 +14,6 @@ this.Button00_onclick = function(obj:Button, e:nexacro.ClickEventInfo)
 	//scope
 	this.alert("Hello");
 	application.trace("Hello");
-}
-
-this.Button01_onclick = function(obj:Button, e:nexacro.ClickEventInfo)
-{
-	//get
-	trace(application.gv_id);
-	//set
-	application.gv_id = "test";
 }
 ]]></Script>
   </Form>

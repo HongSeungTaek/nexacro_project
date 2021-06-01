@@ -3,4 +3,7 @@
   <TypeDefinition url="default_typedef.xml"/>
   <GlobalVariables url="globalvars.xml"/>
   <ADL id="project1" url="project1.xadl"/>
+  <ComponentInfoGroup>
+    <ComponentInfo name="WebBrowser" defaultwidth="" defaultheight="" image="18"/>
+  </ComponentInfoGroup>
 </Project>

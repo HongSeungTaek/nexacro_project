@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="1.5">
+  <TypeDefinition url="..\default_typedef.xml"/>
+  <Form id="frmEmp" left="0" top="0" width="800" height="768" titletext="New Form">
+    <Layouts>
+      <Layout>
+        <Static id="Static00" taborder="0" text="사원관리" left="11" top="5" width="169" height="60"/>
+        <Button id="Button03" taborder="1" text="조회" left="152" top="8" width="98" height="58"/>
+        <Button id="Button01" taborder="2" text="추가" left="255" top="8" width="98" height="58"/>
+        <Button id="Button00" taborder="3" text="삭제" left="358" top="8" width="97" height="58"/>
+        <Button id="Button02" taborder="4" text="저장" left="460" top="8" width="98" height="58"/>
+        <Grid id="Grid00" taborder="5" useinputpanel="false" left="22" top="113" width="698" height="338">
+          <Formats/>
+        </Grid>
+      </Layout>
+    </Layouts>
+  </Form>
+</FDL>
